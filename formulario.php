@@ -1,7 +1,8 @@
-<?php 
+<?php
     if(isset($_POST['submit'])){
         $nombre = $_POST['nombre'];
-        $edad = $_POST['edad'];
+        $apellido_paterno = $_POST['apellido_paterno'];
+        $apellido_materno = $_POST['apellido_materno'];
         $correo = $_POST['correo'];
     }
 ?>
@@ -21,20 +22,29 @@
         <label for="">Nombre:</label>
         <input type="text"name="nombre" value="<?php if(isset($nombre)) echo $nombre ?>">
 
-        <label for="">Edad:</label>
-        <input type="text" name="edad" value="<?php if(isset($edad)) echo $edad ?>">
+        <label for="">Apellido paterno:</label>
+        <input type="text" name="apellido_paterno" value="<?php if(isset($apellido_paterno)) echo $apellido_paterno ?>">
+
+        <label for="">Apellido materno:</label>
+        <input type="text" name="apellido_materno" value="<?php if(isset($apellido_paterno)) echo $apellido_materno ?>">
+
+        <label for="">Apellido materno:</label>
+        <input type="text" name="apellido_materno" value="<?php if(isset($apellido_paterno)) echo $apellido_materno ?>">
+
+        <label for="">Sexo:</label>
+        <select name="sexo">
+          <option value="<?php if(isset($sexo == "Hombre")) echo $sexo ?>">Hombre</option>
+          <option value="<?php if(isset($sexo == "Mujer")) echo $sexo ?>">Mujer</option>
+        </select>
 
         <label for="">Correo:</label>
         <input type="text" name="correo" value="<?php if(isset($correo)) echo $correo ?>">
 
         <input type="submit" name="submit">
-        <?php 
+        <?php
             include("validar-form.php");
         ?>
+    </form>
 
-
-
-    </form> 
-    
 </body>
 </html>

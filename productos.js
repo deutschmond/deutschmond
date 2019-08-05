@@ -62,9 +62,10 @@ function addItemToCart(title, price,imageSrc){
     var cartItems = document.getElementsByClassName('cart-items')[0];
     var cartItemNames = cartItems.getElementsByClassName('cart-item-title');
     for(var i=0; i<cartItemNames.length;i++){
-        alert('Ya se ha agregado este producto');
-        return;
-
+        if(cartItemNames[i].innerText==title){
+            alert('Ya se ha agregado este producto');
+            return;  
+        }
     }
     var cartRowContents = `<div class="cart-item cart-column">
                                 <img class="cart-item-image" src="${imageSrc}" alt="">

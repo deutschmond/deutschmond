@@ -16,7 +16,7 @@
 html, body {
     margin: 0;
     padding:0;
-    background-color: crimson;
+    background-color: #ffff00;
 }
 .nav ul{
     margin:0;
@@ -45,10 +45,11 @@ html, body {
 }
 
 .main-header{
-    background-image: url("green.jpg");
+    /*background-image: url("green.jpg");
     background-size: cover;
     background-color: rgba(0,0,0,.6);
-    background-blend-mode: multiply;
+    background-blend-mode: multiply;*/
+    background-color:#00cc66;
     padding-bottom: 30px;
 }
 .band-name{
@@ -85,7 +86,7 @@ html, body {
     border-radius: 50%;
 }
 .main-footer{
-    background-color: #56CCF2;
+    background-color: #00cc66;
     color:white;
     padding:.25em 0;
 }
@@ -284,3 +285,13 @@ html, body {
     margin:40px auto 80px auto;
     font-size:1.75em;
 }
+.material-icons.orange600{ 
+    color: #ffffff; 
+    font-size: 2.5em;
+}
+
+.material-icons-person.orange600{ 
+    color: #ffffff; 
+    font-size: 1.5em;
+}
+

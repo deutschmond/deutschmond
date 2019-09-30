@@ -2,6 +2,8 @@
     <head>
         <title>Letzel productos</title>
         <meta name="muebles" content="china polonia mexico">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta charset="UTF-8">
         <!--<script>
             alert("compilado");
@@ -9,6 +11,16 @@
         <link rel="stylesheet" href="estilos.css">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
+      <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="css/freelancer.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
         <script src="productos.js" async></script>
     </head>
     <body>
@@ -27,14 +39,14 @@
         <div class="shop-items">
         <section class="container content-section">
             <h2 class="section-header">Sillas</h2>
-            <div class="shop-item">
+            <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal"><div class="shop-item">
                 <span class="shop-item-title">Silla</span>
                 <img class="shop-item-image" src="silla.jpg" alt="">
                 <div class="shop-item-details">
                     <span class="shop-item-price">$300.00</span>
                     <button class="btn btn-primary shop-item-button" role="button">Agregar al carrito</button>
                 </div>
-            </div>
+            </div></a>
         </section>
         <section class="container content-section">
             <h2 class="section-header">Mesas</h2>
@@ -118,5 +130,132 @@
                 </ul>
             </div>
         </footer>
+
+        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Homero 1702</h2>
+                            <hr class="star-primary">
+                            <div id="my-slider3" class="carousel slide" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#myslider" data-slide-to="0" class="active"></li>
+                                    <li data-target="#myslider3" data-slide-to="1"></li>
+                                    <li data-target="#myslider3" data-slide-to="2"></li>
+                                    <li data-target="#myslider3" data-slide-to="3"></li>
+                                    <li data-target="#myslider3" data-slide-to="4"></li>
+
+
+                                </ol>
+
+                                <div class="carousel-inner" role="listbox">
+                                    <div class="item active">
+                            <img src="img/portfolio/renta/homero1702-9.jpg" class="img-responsive img-centered" alt="">
+                            <div class="carousel-caption">
+                                            <h1>
+                                                Uno
+                                            </h1>
+                                        </div>
+
+                                    </div>
+                                    <div class="item">
+                            <img src="img/portfolio/renta/homero1702-9.jpg" class="img-responsive img-centered" alt="">
+                            <div class="carousel-caption">
+                                            <h1>
+                                                Dos
+                                            </h1>
+                                        </div>
+
+                                    </div>
+                                    <div class="item">
+                            <img src="img/portfolio/renta/homero1702-9.jpg" class="img-responsive img-centered" alt="">
+                            <div class="carousel-caption">
+                                            <h1>
+                                                Tres
+                                            </h1>
+                                        </div>
+
+                                    </div>
+                                    <div class="item">
+                            <img src="img/portfolio/renta/homero1702-9.jpg" class="img-responsive img-centered" alt="">
+                            <div class="carousel-caption">
+                                            <h1>
+                                                Cuatro
+                                            </h1>
+                                        </div>
+
+                                    </div>
+                                    <div class="item">
+                            <img src="img/portfolio/renta/homero1702-9.jpg" class="img-responsive img-centered" alt="">
+                            <div class="carousel-caption">
+                                            <h1>
+                                                Cinco
+                                            </h1>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                  <a class="left carousel-control" href="#my-slider3" role="button" data-slide="prev">
+                                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+
+                                <a class="right carousel-control" href="#my-slider3" role="button" data-slide="next">
+                                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                            </div>
+
+
+                            
+                            <p>Descripción de la casa, departamento o desarrollo con el fin de que los clientes encuentren la información que andan buscando con lo que respecta a sus interéses.</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                    </strong>
+                                </li><br>
+                                <li>Precio:
+                                    <strong><a href="http://startbootstrap.com">$450,000.00</a>
+                                    </strong>
+                                </li><br>
+                                <li>Servicios: <br>
+                                    <strong><a href="http://startbootstrap.com">2 baños<br>
+                                    2 comedores</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+          <!-- jQuery -->
+    <script src="vendor/jquery/jquery.js"></script>
+    <script src="js/jquery.vide.js"></script>
+
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/freelancer.js"></script>
     </body>
 </html>

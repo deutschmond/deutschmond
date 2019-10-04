@@ -1,0 +1,190 @@
+footer{
+	display:block;
+}
+.ext{
+	clear: both;
+    width: 100%;
+}
+footer #footer-group-1 .int {
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+}
+.int {
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+    max-width: 1280px;
+}
+footer .logo-footer {
+    align-self: center;
+}
+a {
+    text-decoration: none!important;
+    cursor: pointer;
+    color: #777;
+    transition: all .12s linear;
+    backface-visibility: hidden;
+    font-size: 14px;
+}
+a {
+    background-color: transparent;
+}
+footer .title-footer {
+    color: #2a2a2a;
+    font-size: 20px;
+    margin-bottom: 25px;
+    display: block;
+}
+ol, ul, menu {
+    list-style: none;
+    margin: 0;
+}
+footer ul.social li {
+    margin: 0 5px;
+    float: left;
+}
+footer ul.social li.facebook a {
+    height: 37px;
+    width: 22px;
+}
+footer ul.social li a {
+    display: block;
+    background: url(https://aldoconti.vteximg.com.br/arquivos/sprite-social-icons.png) no-repeat 0 -38px;
+    font-size: 0;
+}
+footer ul li a {
+    display: block;
+    margin-bottom: 10px;
+    transition: all .15s linear;
+    color: #545454;
+}
+a {
+    text-decoration: none!important;
+    cursor: pointer;
+    color: #777;
+    transition: all .12s linear;
+    backface-visibility: hidden;
+    font-size: 14px;
+}
+footer ul.social li.instagram a {
+    height: 37px;
+    width: 35px;
+    background-position: -47px -38px;
+}
+footer ul.social li a {
+    display: block;
+    background: url(https://aldoconti.vteximg.com.br/arquivos/sprite-social-icons.png) no-repeat 0 -38px;
+    font-size: 0;
+}
+footer ul.social li.twitter a {
+    height: 38px;
+    width: 41px;
+    background-position: -108px -38px;
+}
+footer ul.social li a {
+    display: block;
+    background: url(https://aldoconti.vteximg.com.br/arquivos/sprite-social-icons.png) no-repeat 0 -38px;
+    font-size: 0;
+}
+footer ul.social li.youtube a {
+    height: 37px;
+    width: 43px;
+    background-position: -168px -38px;
+}
+footer ul.social li a {
+    display: block;
+    background: url(https://aldoconti.vteximg.com.br/arquivos/sprite-social-icons.png) no-repeat 0 -38px;
+    font-size: 0;
+}
+footer ul.social span {
+    display: block;
+    text-align: center;
+    margin-bottom: 25px;
+}
+@media only screen and (max-width: 1000px){
+footer #footer-group-1 > .int {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+}
+@media only screen and (max-width: 1000px){
+footer #footer-group-1 > .int > * {
+    width: 25%;
+}
+}
+@media only screen and (max-width: 1000px){
+footer #footer-group-1 > .int ul.social {
+    justify-self: center;
+    align-self: center;
+    margin-top: 20px;
+    width: fit-content!important;
+}
+}
+
+/* */
+@media only screen and (max-width: 768px){
+footer #footer-group-1 .int > .logo-footer {
+    text-align: center;
+    margin-top: 40px;
+}
+}
+
+
+@media only screen and (max-width: 768px){
+#footer-group-1 .int > .logo-footer {
+    order: 1;
+}
+}
+@media only screen and (max-width: 768px){
+footer #footer-group-1 > .int > * {
+    width: 100%!important;
+    margin-bottom: 30px;
+}
+}
+
+@media only screen and (max-width: 768px){
+#footer-group-1 .int > #help {
+    order: 3;
+	text-align:center;
+}
+}
+
+@media only screen and (max-width: 768px){
+footer #footer-group-1 .int > div .title-footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+}
+
+
+@media only screen and (max-width: 768px){
+footer #footer-group-1 .int > div ul {
+    margin-top: 20px;
+}
+}
+
+
+@media only screen and (max-width: 768px){
+#footer-group-1 .int > #institucional {
+    order: 4;
+	text-align:center;
+}
+}
+
+@media only screen and (max-width: 768px){
+#footer-group-1 .int > #institucional-2 {
+    order: 5;
+	text-align:center;
+}
+}
+
+
+
+
+
+

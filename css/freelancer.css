@@ -389,7 +389,7 @@ section.success {
 form .row:first-child .floating-label-form-group {
   border-top: 1px solid #eeeeee;
 }
-footer {
+/*footer {
   color: white;
 }
 footer h3 {
@@ -405,7 +405,7 @@ footer .footer-col {
 footer .footer-below {
   padding: 25px 0;
   background-color: #233140;
-}
+}*/
 .btn-outline {
   color: white;
   font-size: 20px;

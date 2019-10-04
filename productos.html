@@ -21,17 +21,28 @@
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="aldoconti.css"> 
+    <link rel="stylesheet" type="text/css" href="toggle.css">
         <script src="productos.js" async></script>
     </head>
     <body>
         <header class="main-header">
-            <nav class="main-nav nav">
+            <nav>
+                 <!-- INICIO TOGGLE -->
+                <div class="toggle">
+                    <div class="menu">
+                        <i class="fa fa-bars aria-hidden=true"></i>
+                    </div>
+                </div>
+                <!-- FINAL TOGGLE -->
+                <div class="togglin">
                 <ul>
                     <li><a href="index.html">Inicio</a></li>
                     <li><a href="productos.html">Tienda</a></li>
                     <li><a href="about.html">Nosotros</a></li>
                     <li><a href="formulario.html"><i class="material-icons material-icons-person orange600">person</i></a></li>
                 </ul>
+                </div>
             </nav>
             <h1 class="band-name band-name-large">Letzel</h1>
         </header>
@@ -111,25 +122,35 @@
                 <button class="btn btn-primary btn-purchase" role="button">Comprar</button>
         </section>
     <!-- FIN DE CARRITO DE COMPRAS-->
+    <!-- FOOTER VIEJO 04 OCT 2019 INICIO
     <footer class="main-footer">
             <div class="container main-footer-container">
                 <h3 class="band-name">Contáctanos</h3>
                 <ul class="nav footer-nav">
                     <li>
-                       <!--<a href="https://google.com.mx" target="_"><img src="telefono.png" alt="teléfono"></a>-->
+                       <<a href="https://google.com.mx" target="_"><img src="telefono.png" alt="teléfono"></a>
                        <i class="material-icons orange600">call</i>
                     </li>
                     <li>
-                        <!--<a href="https://facebook.com" target="_"><img src="facebook.png" alt="facebook"></a>-->
+                        <a href="https://facebook.com" target="_"><img src="facebook.png" alt="facebook"></a>
                         <i class="material-icons orange600">location_on</i>
                     </li>
                     <li>
-                        <!--<a href="https://youtube.com" target="_"><img src="youtube.png" alt="youtube"></a>-->
+                        <a href="https://youtube.com" target="_"><img src="youtube.png" alt="youtube"></a>
                         <i class="material-icons orange600">message</i>
                     </li>
                 </ul>
             </div>
         </footer>
+        FOOTER VIEJO 04 OCT 2019 FIN-->
+        <footer id="footer" class="ext"><div id="footer-group-1" class="ext"><div class="int"><a class="logo-footer" href="/"><img src="letzel.jpg" width="135" height="40" alt="Aldo Conti"></a><div id="help"><span class="title-footer"></span><ul class="eq01">
+    <h1>PIEZA 1</h1>
+    <li><a href="/guia-de-compras#faq">Preguntas frecuentes</a></li><li><a href="/guia-de-compras#pagos">Pagos</a></li><li><a href="/guia-de-compras#envios">Envío</a></li><li><a href="/guia-de-compras#devoluciones">Cambios y devoluciones</a></li><li><a href="/rastrea-tu-pedido">Rastrea tu pedido</a></li><li><a href="/facturacion">Facturación</a></li></ul></div><div id="institucional"><span class="title-footer"></span><ul class="eq01">
+    <h1>PIEZA 2</h1>
+    <li><a href="/contacto">Contacto</a></li><li><a href="/nuestras-marcas">Nuestras marcas</a></li><li><a href="http://200.0.91.20/" target="blank">Proveedores</a></li><li><a href="/ventas-corporativas">Ventas corporativas</a></li><li><a href="/sucursales">Sucursales</a></li></ul></div><div id="institucional-2"><span class="title-footer"></span><ul class="eq01">
+    <h1>PIEZA 3</h1>
+    <li><a href="/politicas-de-cookies">Políticas de cookies</a></li><li><a href="/politicas-de-candidatos">Políticas de candidatos</a></li><li><a href="/politicas-de-compra">Políticas de compra</a></li><li><a href="/terminos-y-condiciones">Términos y condiciones</a></li><li><a href="/aviso-de-privacidad">Avíso de privacidad</a></li><li><a href="/terminos-y-condiciones-tu-escoges">Términos y condiciones promoción "Tú escoges"</a></li><li><a href="/terminos-y-condiciones-promocionales">Términos y condiciones promocionales</a></li></ul></div><ul class="social"><span class="title-footer">Síguenos</span><li class="facebook"><a href="https://www.facebook.com/aldocontitalia/" target="blank">Facebook</a></li><li class="instagram"><a href="https://instagram.com/aldocontimx/" target="blank">Instagram</a></li><li class="twitter"><a href="https://twitter.com/aldocontiitalia" target="blank">Twitter</a></li><li class="youtube"><a href="https://www.youtube.com/user/sistemasaldoconti" target="blank">Youtube</a></li><span><a href="/bolsadetrabajo" style="color:#000000;float:left;font-weight:bold;font-size:20px;padding:50px 0 0 20px;">Únete al equipo</a></span></ul></div></div>
+    </footer>
 
         <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
@@ -257,5 +278,15 @@
 
     <!-- Theme JavaScript -->
     <script src="js/freelancer.js"></script>
+      <!--SCRIPT PARA EL MENU TOGGLE AGREGADO EL 2 DE OCTUBRE 2019  INICIO-->
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.menu').click(function(){
+                $('.togglin').toggleClass('active');
+            })
+        })
+    </script>
+    <!--SCRIPT PARA EL MENU TOGGLE AGREGADO EL 2 DE OCTUBRE 2019  FINAL-->
     </body>
 </html>

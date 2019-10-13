@@ -54,6 +54,7 @@ input{
 	padding:10px 40px;
 	cursor:pointer;
 	font-size:20px;
+	text-decoration:none; /*CAMBIO 3*/ 
 }
 .btn-enviar{
 	-webkit-transform:scale(1.05);

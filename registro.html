@@ -6,12 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
+    
     <link rel="stylesheet" type="text/css" href="formulario.css">
+    <link rel="stylesheet" type="text/css" href="modal.css">  <!--CAMBIO 7-->
 </head>
 <body>
 
 	<h1>Formulario de registro</h1>
-	<form action="registrar.php" method="post" class="form-register">
+	<form action="registrar.php"  method="post" class="form-register">
 		<h2 class="form-titulo">Registro</h2>
 		<div class="contenedor-inputs">
 			<input type="text" name="nombre" placeholder="nombre" class="input-48" required>
@@ -20,12 +22,26 @@
 			<input type="text" name="usuario" placeholder="usuario" class="input-48" required>
 			<input type="password" name="clave" placeholder="contraseña" class="input-48" required>
 			<input type="text" name="telefono" placeholder="telefono" class="input-100" required>
-			<input type="submit" value="Registrar" class="btn-enviar">
+			<!--<input type="submit" value="Registrar" class="btn-enviar"> CAMBIO 1-->
+			<a href="#modal" id="show-modal" class="btn-enviar">Registrar</a> <!--CAMBIO 2-->
+			<!--CAMBIO 4 INICIO-->
+			<aside id="modal" class="modal">
+	            <div class="content-modal">
+	                <header>
+	                    <a href="#" class="close-modal">X</a>
+	                    <h2>Favor de revisar bien los datos antes de enviar</h2>
+	                </header>
+	                <article>
+	                    <input type="submit" value="Estoy seguro" class="check"> <!--CAMBIO 6-->
+	                    <a href="registro.html" class="check">quiero revisar</a> <!--CAMBIO 5-->
+	                </article>
+	            </div>
+            <a href="#" class="btn-close-modal"></a>
+        	</aside>
+        	<!--CAMBIO 4 FIN-->
 			<p class="form-link">¿Ya tienes cuenta? <a href="formulario.html">Ingresa aquí</a></p>
 		</div>
-
+			
 	</form>
-
-
 </body>
 </html>

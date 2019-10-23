@@ -11,11 +11,11 @@
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="estilos.css">
     <link rel="stylesheet" type="text/css" href="aldoconti.css"> 
     <link rel="stylesheet" type="text/css" href="toggle.css">
- 	<link rel="stylesheet" href="estilos.css">
-    <link rel="stylesheet" type="text/css" href="formulario.css">
     <link rel="stylesheet" type="text/css" href="modal.css">  <!--CAMBIO 7-->
+    <link rel="stylesheet" type="text/css" href="formulario.css">
 
     <script src="validar.js"></script>
 </head>
@@ -34,7 +34,8 @@
                         <li><a href="index.html">Inicio</a></li>
                         <li><a href="about.html">Nosotros</a></li>
                         <li><a href="productos.html">Tienda</a></li>
-                        <li><a href="formulario.html"><i class="material-icons material-icons-person orange600">person</i></a></li>
+                        <!--<li><a href="formulario.html"><i class="material-icons material-icons-person orange600">person</i></a></li>-->
+                        <li><a href="#formulario"><i class="material-icons material-icons-person orange600">person</i></a></li>
                     </ul>
                 </div>
             </nav>
@@ -72,6 +73,26 @@
 			
 	</form>
 	<!--FOOTER 04 OCT 2019 INICIO -->
+
+<!--Formulario para ingresar al sistema INICIO -->
+    <aside id="formulario" class="modal">
+                <div class="content-modal">
+                    <header>
+                        <a href="#" class="close-modal">X</a>
+                        <h2>Favor de revisar bien los datos antes de enviar</h2>
+                    </header>
+                    <form action="registrar.php" method="post" class="form-register">
+                        <h2>LOGIN</h2>
+                        <input type="text" placeholder="usuario" name="usuario">
+                        <input type="password" placeholder="password" name="password">
+                        <input type="submit" value="Ingresar">
+                        <a href="registro.html">¿Sin cuenta? regístrate</a>
+                    </form>
+
+                </div>
+            <a href="#" class="btn-close-modal"></a>
+    </aside>
+    <!--Formulario para ingresar al sistema FINAL -->
         <footer id="footer" class="ext"><div id="footer-group-1" class="ext"><div class="int"><a class="logo-footer" href="/"><img src="letzel.png" width="135" alt="Aldo Conti"></a><div id="help"><span class="title-footer"></span><ul class="eq01">
     <h1>PIEZA 1</h1>
     <li><a href="/guia-de-compras#faq">Preguntas frecuentes</a></li><li><a href="/guia-de-compras#pagos">Pagos</a></li><li><a href="/guia-de-compras#envios">Envío</a></li><li><a href="/guia-de-compras#devoluciones">Cambios y devoluciones</a></li><li><a href="/rastrea-tu-pedido">Rastrea tu pedido</a></li><li><a href="/facturacion">Facturación</a></li></ul></div><div id="institucional"><span class="title-footer"></span><ul class="eq01">

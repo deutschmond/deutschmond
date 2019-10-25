@@ -28,7 +28,7 @@
     <link rel="stylesheet" type="text/css" href="toggle.css">
     <link rel="stylesheet" type="text/css" href="modal.css">
     <link rel="stylesheet" type="text/css" href="formulario.css">
-
+    <script src="validation.js"></script>
 
     </head>
 
@@ -105,16 +105,17 @@
             </div>
             <!--<button class="btn btn-header btn-play" type="button">&#9658;</button>-->
         </header>
+        <form action="file.php" class="form-register" method="post" onsubmit="return validation();">
          <aside id="formulario" class="modalMondtec">
-                <div class="content-modal">
+                <div class="content-modal" >
                     <header>
                         <a href="#" class="close-modal">X</a>
                         <h2>Favor de revisar bien los datos antes de enviar</h2>
                     </header>
                     <form action="registrar.php" method="post" class="form-register">
                         <h2>LOGIN</h2>
-                        <input type="text" placeholder="usuario" name="usuario">
-                        <input type="password" placeholder="password" name="password">
+                        <input type="text" placeholder="usuario" name="usuario" id="usuario">
+                        <input type="password" placeholder="password" name="password" id="password">
                         <input type="submit" value="Ingresar">
                         <a href="registro.html">¿Sin cuenta? regístrate</a>
                     </form>
@@ -123,6 +124,7 @@
             <a href="#" class="btn-close-modal"></a>
     </aside>
     <!--Formulario para ingresar al sistema FINAL -->
+    </form>
         <!--<section class="content-section container">
             <h2 class="section-header">Productos</h2>
             <div>

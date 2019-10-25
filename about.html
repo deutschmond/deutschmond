@@ -5,6 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta charset="UTF-8">
+
         <!--<script>
             alert("compilado");
         </script>-->
@@ -19,6 +20,9 @@
       <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
       <link rel="stylesheet" type="text/css" href="aldoconti.css"> 
       <link rel="stylesheet" type="text/css" href="toggle.css">
+      <link rel="stylesheet" type="text/css" href="modal.css">
+      <link rel="stylesheet" type="text/css" href="formulario.css">
+      
     </head>
     <body>
         <header class="main-header">
@@ -35,13 +39,34 @@
                         <li><a href="index.html">Inicio</a></li>
                         <li><a href="productos.html">Tienda</a></li>
                         <li><a href="about.html">Nosotros</a></li>
-                        <li><a href="formulario.html"><i class="material-icons material-icons-person orange600">person</i></a></li>
+                        <!--<li><a href="formulario.html"><i class="material-icons material-icons-person orange600">person</i></a></li>-->
+                        <li><a href="#formulario"><i class="material-icons material-icons-person orange600">person</i></a></li>
                 </ul>
                 </div>
             </nav>
             <!--<hr>-->
             <h1 class="band-name band-name-large">Letzel</h1>
         </header>
+                        <!--Formulario para ingresar al sistema INICIO -->
+    <aside id="formulario" class="modalMondtec">
+                <div class="content-modal">
+                    <header>
+                        <a href="#" class="close-modal">X</a>
+                        <h2>Favor de revisar bien los datos antes de enviar</h2>
+                    </header>
+                    <form action="registrar.php" method="post" class="form-register">
+                        <h2>LOGIN</h2>
+                        <input type="text" placeholder="usuario" name="usuario">
+                        <input type="password" placeholder="password" name="password">
+                        <input type="submit" value="Ingresar">
+                        <a href="registro.html">¿Sin cuenta? regístrate</a>
+                    </form>
+
+                </div>
+            <a href="#" class="btn-close-modal"></a>
+    </aside>
+    <!--Formulario para ingresar al sistema FINAL -->
+
         <section class="content-section container">
             <h2 class="section-header">Nosotros</h2>
             <img class="about-band-image" src="silla.jpg" alt="">

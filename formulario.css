@@ -18,7 +18,7 @@ h1{
 	border-radius:7px;
 }
 .form-titulo{
-	background-color:deepskyblue;
+	background-color:#001f44;
 	color:#fff;
 	padding:20px;
 	text-align:center;
@@ -64,4 +64,5 @@ input{
 	margin:7px;
 	font-size:14px;
 	text-align:center;
+	color:#000;
 }

@@ -22,7 +22,7 @@ footer .logo-footer {
 a {
     text-decoration: none!important;
     cursor: pointer;
-    color: #777;
+    color: #000;
     transition: all .12s linear;
     backface-visibility: hidden;
     font-size: 14px;

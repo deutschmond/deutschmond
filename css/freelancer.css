@@ -57,11 +57,11 @@ hr.star-light:after {
   color: white;
 }
 hr.star-primary {
-  border-color: #fce602;
+  border-color: #fff;
 }
 hr.star-primary:after {
   background-color: white;
-  color: #fce602;
+  color: #fff;
 }
 .img-centered {
   margin: 0 auto;
@@ -151,7 +151,7 @@ header .intro-text .skills {
 .navbar-custom .navbar-toggle:focus {
   background-color: #fff;
   color: white;
-  border-color: #fce602;
+  border-color: #fff;
 }
 @media (min-width: 768px) {
   .navbar-custom {
@@ -181,7 +181,7 @@ section h2 {
   font-size: 3em;
 }
 section.success {
-  background: #fce602;
+  background: #fff;
   color: white;
 }
 @media (max-width: 767px) {
@@ -203,7 +203,7 @@ section.success {
   margin: 0 auto;
 }
 #venta .portfolio-item .portfolio-link .caption {
-  background: #fce602;
+  background: #fff;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -254,7 +254,7 @@ section.success {
   margin: 0 auto;
 }
 #renta .portfolio-item .portfolio-link .caption {
-  background: #fce602;
+  background: #fff;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -303,7 +303,7 @@ section.success {
   margin: 0 auto;
 }
 #desarrollo .portfolio-item .portfolio-link .caption {
-  background: #fce602;
+  background: #fff;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -418,7 +418,7 @@ footer .footer-below {
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
-  color: #fce602;
+  color: #fff;
   background: white;
   border: solid 2px white;
 }
@@ -466,8 +466,8 @@ fieldset[disabled] .btn-primary.active {
 }
 .btn-success {
   color: white;
-  background-color: #fce602;
-  border-color:#fce602;
+  background-color: #fff;
+  border-color:#fff;
   font-weight: 700;
 }
 .btn-success:hover,

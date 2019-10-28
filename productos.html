@@ -30,7 +30,7 @@
     <link rel="stylesheet" type="text/css" href="formulario.css">
 
     
-    
+    <script src="validation.js"></script>
     <script src="productos.js" async></script>
     </head>
     <body>
@@ -181,6 +181,7 @@
             </div>
         </footer>
         FOOTER VIEJO 04 OCT 2019 FIN-->
+       <form action="file.php" class="form-register" method="post" onsubmit="return validation();"> 
                 <!--Formulario para ingresar al sistema INICIO -->
     <aside id="formulario" class="modalMondtec">
                 <div class="content-modal">
@@ -190,8 +191,8 @@
                     </header>
                     <form action="registrar.php" method="post" class="form-register">
                         <h2>LOGIN</h2>
-                        <input type="text" placeholder="usuario" name="usuario">
-                        <input type="password" placeholder="password" name="password">
+                        <input type="text" placeholder="usuario" name="usuario" id="usuarion">
+                        <input type="password" placeholder="password" name="password" id="password">
                         <input type="submit" value="Ingresar">
                         <a href="registro.html">¿Sin cuenta? regístrate</a>
                     </form>
@@ -200,6 +201,7 @@
             <a href="#" class="btn-close-modal"></a>
     </aside>
     <!--Formulario para ingresar al sistema FINAL -->
+    </form>
         <footer id="footer" class="ext"><div id="footer-group-1" class="ext"><div class="int"><a class="logo-footer" href="/"><img src="letzel.png" width="135" alt="Aldo Conti"></a><div id="help"><span class="title-footer"></span><ul class="eq01">
     <h1>PIEZA 1</h1>
     <li><a href="/guia-de-compras#faq">Preguntas frecuentes</a></li><li><a href="/guia-de-compras#pagos">Pagos</a></li><li><a href="/guia-de-compras#envios">Envío</a></li><li><a href="/guia-de-compras#devoluciones">Cambios y devoluciones</a></li><li><a href="/rastrea-tu-pedido">Rastrea tu pedido</a></li><li><a href="/facturacion">Facturación</a></li></ul></div><div id="institucional"><span class="title-footer"></span><ul class="eq01">

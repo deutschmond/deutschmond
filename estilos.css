@@ -16,7 +16,8 @@
 html, body {
     margin: 0;
     padding:0;
-    background-color: #00cc66;
+    background-color: #800040;
+
 }
 .nav ul{
     margin:0;
@@ -49,7 +50,7 @@ html, body {
     background-size: cover;
     background-color: rgba(0,0,0,.6);
     background-blend-mode: multiply;*/
-    background-color:#00cc66;
+    background-color:#800040;
     padding-bottom: 30px;
 }
 .band-name{
@@ -61,7 +62,7 @@ html, body {
     color:white;
 }
 .band-name-large{
-    font-size: 8em;
+    font-size: 5em;
 }
 .content-section{
     margin:1em;
@@ -294,4 +295,5 @@ html, body {
     color: #ffffff; 
     font-size: 1.5em;
 }
+
 

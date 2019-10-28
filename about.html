@@ -22,7 +22,7 @@
       <link rel="stylesheet" type="text/css" href="toggle.css">
       <link rel="stylesheet" type="text/css" href="modal.css">
       <link rel="stylesheet" type="text/css" href="formulario.css">
-      
+      <script src="validation.js"></script>
     </head>
     <body>
         <header class="main-header">
@@ -47,6 +47,7 @@
             <!--<hr>-->
             <h1 class="band-name band-name-large">Letzel</h1>
         </header>
+        <form action="file.php" class="form-register" method="post" onsubmit="return validation();">
                         <!--Formulario para ingresar al sistema INICIO -->
     <aside id="formulario" class="modalMondtec">
                 <div class="content-modal">
@@ -56,8 +57,8 @@
                     </header>
                     <form action="registrar.php" method="post" class="form-register">
                         <h2>LOGIN</h2>
-                        <input type="text" placeholder="usuario" name="usuario">
-                        <input type="password" placeholder="password" name="password">
+                        <input type="text" placeholder="usuario" name="usuario" id="usuarion">
+                        <input type="password" placeholder="password" name="password" id="password">
                         <input type="submit" value="Ingresar">
                         <a href="registro.html">¿Sin cuenta? regístrate</a>
                     </form>
@@ -66,6 +67,7 @@
             <a href="#" class="btn-close-modal"></a>
     </aside>
     <!--Formulario para ingresar al sistema FINAL -->
+    </form>
 
         <section class="content-section container">
             <h2 class="section-header">Nosotros</h2>

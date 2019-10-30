@@ -18,7 +18,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #fff;
+  color: #000;
 }
 h1,
 h2,
@@ -57,11 +57,11 @@ hr.star-light:after {
   color: white;
 }
 hr.star-primary {
-  border-color: #fff;
+  border-color: #7a7a52;
 }
 hr.star-primary:after {
   background-color: white;
-  color: #fff;
+  color: #7a7a52;
 }
 .img-centered {
   margin: 0 auto;

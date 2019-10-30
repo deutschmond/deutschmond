@@ -43,7 +43,7 @@
         </header> 
 
 	<h1>Formulario de registro</h1>
-	<form action="registrar.php"  method="post" class="form-register" onsubmit="return validar();">
+	<form action="registrar.php"  method="post" class="form-register" onsubmit="return validar();" style="margin-bottom:10px;">
 		<h2 class="form-titulo">Registro</h2>
 		<div class="contenedor-inputs">
 			<input type="text" id="nombre" name="nombre" placeholder="nombre" class="input-48">
@@ -69,7 +69,7 @@
             <a href="#" class="btn-close-modal"></a>
         	</aside>
         	<!--CAMBIO 4 FIN-->
-			<p class="form-link">¿Ya tienes cuenta? <a href="formulario.html">Ingresa aquí</a></p>
+			<p class="form-link">¿Ya tienes cuenta? <a href="#formulario">Ingresa aquí</a></p>
 		</div>
 			
 	</form>
@@ -95,14 +95,107 @@
     </aside>
     <!--Formulario para ingresar al sistema FINAL -->
     </form>
-        <footer id="footer" class="ext"><div id="footer-group-1" class="ext"><div class="int"><a class="logo-footer" href="/"><img src="letzel.png" width="135" alt="Aldo Conti"></a><div id="help"><span class="title-footer"></span><ul class="eq01">
-    <h1>PIEZA 1</h1>
-    <li><a href="/guia-de-compras#faq">Preguntas frecuentes</a></li><li><a href="/guia-de-compras#pagos">Pagos</a></li><li><a href="/guia-de-compras#envios">Envío</a></li><li><a href="/guia-de-compras#devoluciones">Cambios y devoluciones</a></li><li><a href="/rastrea-tu-pedido">Rastrea tu pedido</a></li><li><a href="/facturacion">Facturación</a></li></ul></div><div id="institucional"><span class="title-footer"></span><ul class="eq01">
-    <h1>PIEZA 2</h1>
-    <li><a href="/contacto">Contacto</a></li><li><a href="/nuestras-marcas">Nuestras marcas</a></li><li><a href="http://200.0.91.20/" target="blank">Proveedores</a></li><li><a href="/ventas-corporativas">Ventas corporativas</a></li><li><a href="/sucursales">Sucursales</a></li></ul></div><div id="institucional-2"><span class="title-footer"></span><ul class="eq01">
-    <h1>PIEZA 3</h1>
-    <li><a href="/politicas-de-cookies">Políticas de cookies</a></li><li><a href="/politicas-de-candidatos">Políticas de candidatos</a></li><li><a href="/politicas-de-compra">Políticas de compra</a></li><li><a href="/terminos-y-condiciones">Términos y condiciones</a></li><li><a href="/aviso-de-privacidad">Avíso de privacidad</a></li><li><a href="/terminos-y-condiciones-tu-escoges">Términos y condiciones promoción "Tú escoges"</a></li><li><a href="/terminos-y-condiciones-promocionales">Términos y condiciones promocionales</a></li></ul></div><ul class="social"><span class="title-footer">Síguenos</span><li class="facebook"><a href="https://www.facebook.com/aldocontitalia/" target="blank">Facebook</a></li><li class="instagram"><a href="https://instagram.com/aldocontimx/" target="blank">Instagram</a></li><li class="twitter"><a href="https://twitter.com/aldocontiitalia" target="blank">Twitter</a></li><li class="youtube"><a href="https://www.youtube.com/user/sistemasaldoconti" target="blank">Youtube</a></li><span><a href="/bolsadetrabajo" style="color:#000000;float:left;font-weight:bold;font-size:20px;padding:50px 0 0 20px;">Únete al equipo</a></span></ul></div></div>
-    </footer>
+<!--FOOTER IDENTADO INICIO 30 OCT 2019--> 
+<footer id="footer" class="ext">
+    <div id="footer-group-1" class="ext">
+        <div class="int">
+            <a class="logo-footer" href="/">
+                <img src="letzel.png" width="135" alt="Aldo Conti">
+            </a>
+        <!--<div id="help">
+            <span class="title-footer"></span>
+            <ul class="eq01">
+            <h1>PIEZA 1</h1>
+                <li>
+                    <a href="/guia-de-compras#faq">Preguntas frecuentes</a>
+                </li>
+                <li>
+                    <a href="/guia-de-compras#pagos">Pagos</a>
+                </li>
+                <li>
+                    <a href="/guia-de-compras#envios">Envío</a>
+                </li>
+                <li>
+                    <a href="/guia-de-compras#devoluciones">Cambios y devoluciones</a>
+                </li>
+                <li>
+                    <a href="/rastrea-tu-pedido">Rastrea tu pedido</a>
+                </li>
+                <li>
+                    <a href="/facturacion">Facturación</a>
+                </li>
+            </ul>
+        </div>-->
+        <div id="institucional">
+            <span class="title-footer"></span>
+            <ul class="eq01">
+            <h1>Letzel Información</h1>
+                <li>
+                    <a href="/contacto">Contacto</a>
+                </li>
+                <li>
+                    <a href="#">Nuestras marcas</a>
+                </li>
+                <li>
+                    <a href="#" target="blank">Proveedores</a>
+                </li>
+                <li>
+                    <a href="#">Ventas corporativas</a>
+                </li>
+                <li>
+                    <a href="#">Sucursales</a>
+                </li>
+            </ul>
+        </div>
+        <!--<div id="institucional-2">
+            <span class="title-footer"></span>
+            <ul class="eq01">
+            <h1>PIEZA 3</h1>
+                <li>
+                    <a href="/politicas-de-cookies">Políticas de cookies</a>
+                </li>
+                <li>
+                    <a href="/politicas-de-candidatos">Políticas de candidatos</a>
+                </li>
+                <li>
+                    <a href="/politicas-de-compra">Políticas de compra</a>
+                </li>
+                <li>
+                    <a href="/terminos-y-condiciones">Términos y condiciones</a>
+                </li>
+                <li>
+                    <a href="/aviso-de-privacidad">Avíso de privacidad</a>
+                </li>
+                <li>
+                    <a href="/terminos-y-condiciones-tu-escoges">Términos y condiciones promoción "Tú escoges"</a>
+                </li>
+                <li>
+                    <a href="/terminos-y-condiciones-promocionales">Términos y condiciones promocionales</a>
+                </li>
+            </ul>
+        </div>-->
+            <ul class="social">
+                <span class="title-footer">Síguenos</span>
+                <li class="facebook">
+                    <a href="https://www.facebook.com/aldocontitalia/" target="blank">Facebook</a>
+                </li>
+                <li class="instagram">
+                    <a href="https://instagram.com/aldocontimx/" target="blank">Instagram</a>
+                </li>
+                <li class="twitter">
+                    <a href="https://twitter.com/aldocontiitalia" target="blank">Twitter</a>
+                </li>
+                <li class="youtube">
+                    <a href="https://www.youtube.com/user/sistemasaldoconti" target="blank">Youtube</a>
+                </li>
+                <!--<span>
+                    <a href="/bolsadetrabajo" style="color:#000000;float:left;font-weight:bold;font-size:20px;padding:50px 0 0 20px;">Únete al equipo</a>
+                </span>-->
+            </ul>
+        </div>
+    </div>
+</footer>
+<!--FOOTER IDENTADOFINAL 30 OCT 2019-->
 
         <!-- FOOTER 04 OCT 2019 INICIO-->
         <!--SCRIPT PARA EL MENU TOGGLE AGREGADO EL 2 DE OCTUBRE 2019  INICIO-->

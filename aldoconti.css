@@ -1,6 +1,9 @@
 footer{
 	display:block;
+    background-color:#fff;
+
 }
+
 .ext{
 	clear: both;
     width: 100%;

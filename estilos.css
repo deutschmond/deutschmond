@@ -10,7 +10,7 @@
 *{
     box-sizing: border-box;
     font-family: Raleway;
-    color:#fff;
+    color:#7a7a52;
 }
 
 html, body {
@@ -66,6 +66,9 @@ html, body {
 }
 .content-section{
     margin:1em;
+}
+.content-section p{
+    text-align: justify;
 }
 .container{
     max-width:900px;

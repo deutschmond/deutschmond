@@ -29,6 +29,15 @@ nav{
 	font-size:20px;
 	display:none;
 }
+.letzel{
+	float:left;
+	position:relative;
+	top:25px;
+	font-weight:bold;
+	list-style:none;
+	left:10px;
+	color:#fff;
+}
 @media (max-width:768px){
 	.toggle{
 		display:block;
@@ -44,4 +53,32 @@ nav{
 	.active{
 		display:block;
 	}
+	.letzel{
+		position:relative;
+		left:350px;
+		top:-25px;
+	}
 }
+/*MEDIA QUERIES QUE APLICAN SOLAMENTE PARA EL TAG P DE LETZEL INICIO 02 NOV 2019*/
+@media (max-width:650px){
+		.letzel{
+		position:relative;
+		left:300px;
+		top:-25px;
+	}
+}
+@media (max-width:555px){
+		.letzel{
+		position:relative;
+		left:250px;
+		top:-25px;
+	}
+}
+@media (max-width:550px){
+		.letzel{
+		position:relative;
+		left:200px;
+		top:-25px;
+	}
+}
+/*MEDIA QUERIES QUE APLICAN SOLAMENTE PARA EL TAG P DE LETZEL FIN 02 NOV 2019*/

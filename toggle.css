@@ -70,14 +70,14 @@ nav{
 @media (max-width:555px){
 		.letzel{
 		position:relative;
-		left:250px;
+		left:290px;
 		top:-25px;
 	}
 }
 @media (max-width:550px){
 		.letzel{
 		position:relative;
-		left:200px;
+		left:150px;
 		top:-25px;
 	}
 }

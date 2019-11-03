@@ -1,4 +1,4 @@
-nav{
+/*nav{
 	width:100%;
 	background-color:#00316b;
 }
@@ -59,7 +59,9 @@ nav{
 		top:-25px;
 	}
 }
+*/
 /*MEDIA QUERIES QUE APLICAN SOLAMENTE PARA EL TAG P DE LETZEL INICIO 02 NOV 2019*/
+/*
 @media (max-width:650px){
 		.letzel{
 		position:relative;
@@ -80,5 +82,5 @@ nav{
 		left:150px;
 		top:-25px;
 	}
-}
+}*/
 /*MEDIA QUERIES QUE APLICAN SOLAMENTE PARA EL TAG P DE LETZEL FIN 02 NOV 2019*/

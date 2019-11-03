@@ -14,7 +14,9 @@
         <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
         <link href="css/freelancer.css" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="aldoconti.css"> 
-        <link rel="stylesheet" type="text/css" href="toggle.css">
+        <!--<link rel="stylesheet" type="text/css" href="toggle.css">-->
+        <link rel="stylesheet" type="text/css" href="navbar.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
         <link rel="stylesheet" type="text/css" href="modal.css">
         <link rel="stylesheet" type="text/css" href="formulario.css">
         <!-- ESTILOS DEL ABOUT FINAL 30 OCT 2019-->
@@ -25,16 +27,33 @@
 
     <body id="page-top" class="index">
         <header class="main-header">
-            <nav>
-                <!-- INICIO TOGGLE -->
+            <div class="header">
+                <h2 class="logo">LETZEL</h2>
+                <input type="checkbox" id="chk">
+                <label for="chk" class="show-menu-btn">
+                    <i class="fas fa-ellipsis-h"></i>
+                </label>
+
+                <ul class="menu">
+                    <a href="index.html">Inicio</a>
+                    <a href="about.html">Nosotros</a>
+                    <a href="productos.html">Tienda</a>
+                    <a href="#formulario">Registro</a>
+                    <label for="chk" class="hide-menu-btn">
+                        <i class="fas fa-times"></i>
+                    </label>
+                </ul>
+            </div>
+           <!-- <nav>
+               
 
                 <div class="toggle">
                     <div class="menu">
                         <i class="fa fa-bars aria-hidden=true"></i>
                     </div>
                 </div>
-                <!-- FINAL TOGGLE -->
-                <p class="letzel">LETZEL</p> <!--Se muestra afuera de la lista desordenada 02 nov 2019 -->
+                
+                <p class="letzel">LETZEL</p>
                 <div class="togglin">
                     <ul>
                         
@@ -44,7 +63,7 @@
                         <li><a href="#formulario"><i class="material-icons material-icons-person orange600">person</i></a></li>
                     </ul>
                 </div>
-            </nav>
+            </nav>-->
             <!--<h1 class="band-name band-name-large">Letzel</h1>-->
             <div class="containerr">
                 <!--<button class="btn btn-header" type="button">Video especial</button>-->
@@ -791,13 +810,13 @@
     <script src="js/freelancer.js"></script>
     <!--SCRIPT PARA EL MENU TOGGLE AGREGADO EL 2 DE OCTUBRE 2019  INICIO-->
     <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
-    <script type="text/javascript">
+    <!--<script type="text/javascript">
         $(document).ready(function(){
             $('.menu').click(function(){
                 $('.togglin').toggleClass('active');
             })
         })
-    </script>
+    </script>-->
     <!--SCRIPT PARA EL MENU TOGGLE AGREGADO EL 2 DE OCTUBRE 2019  FINAL-->
     </body>
 </html>

@@ -242,14 +242,15 @@ html, body {
     border-radius: 10px;
 }
 .btn-danger{
-    color:white;
-    background-color:#EB5757;
+    color:#000;
+    background-color:#fff;
     border:none;
     border-radius: .3em;
     font-weight: bold;
 }
 .btn-danger:hover{
-    background-color: #CC4C4C;
+    background-color: #000;
+    color:#fff;
 }
 .cart-quantity-input{
     height:34px;
@@ -264,7 +265,7 @@ html, body {
     margin-right:25px;
 }
 .cart-row:last-child{
-    border-bottom:1px solid black;
+    border:2px solid #fff;   
 }
 .cart-row:last-child .cart-column{
     border:none;
@@ -281,7 +282,7 @@ html, body {
     margin-right:20px;
 }
 .cart-total-price{
-    color:#333;
+    color:#fff;
     font-size:1.1em;
 }
 .btn-purchase{
@@ -298,5 +299,6 @@ html, body {
     color: #ffffff; 
     font-size: 1.5em;
 }
-
-
+div.cart-row{
+ border:2px solid #fff;   
+}

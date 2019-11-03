@@ -13,7 +13,9 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="estilos.css">
     <link rel="stylesheet" type="text/css" href="aldoconti.css"> 
-    <link rel="stylesheet" type="text/css" href="toggle.css">
+    <!--<link rel="stylesheet" type="text/css" href="toggle.css">-->
+    <link rel="stylesheet" type="text/css" href="navbar.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
     <link rel="stylesheet" type="text/css" href="modal.css">  <!--CAMBIO 7-->
     <link rel="stylesheet" type="text/css" href="formulario.css">
     
@@ -22,26 +24,44 @@
 </head>
 <body>
 	 <header class="main-header">
-	   <nav>
-                <!-- INICIO TOGGLE -->
+        <div class="header">
+            <h2 class="logo">LETZEL</h2>
+            <input type="checkbox" id="chk">
+            <label for="chk" class="show-menu-btn">
+                <i class="fas fa-ellipsis-h"></i>
+            </label>
+
+            <ul class="menu">
+                <a href="index.html">Inicio</a>
+                <a href="about.html">Nosotros</a>
+                <a href="productos.html">Tienda</a>
+                <a href="#formulario">Registro</a>
+                <label for="chk" class="hide-menu-btn">
+                <i class="fas fa-times"></i>
+                </label>
+            </ul>
+        </div>
+	   <!--<nav>
+                
                 <div class="toggle">
                     <div class="menu">
                         <i class="fa fa-bars aria-hidden=true"></i>
                     </div>
                 </div>
-                <!-- FINAL TOGGLE -->
+                
                 
                 <div class="togglin">
                     <ul>
                         <li><a href="index.html">Inicio</a></li>
                         <li><a href="about.html">Nosotros</a></li>
                         <li><a href="productos.html">Tienda</a></li>
-                        <!--<li><a href="formulario.html"><i class="material-icons material-icons-person orange600">person</i></a></li>-->
+                        
                         <li><a href="#formulario"><i class="material-icons material-icons-person orange600">person</i></a></li>
                     </ul>
                 </div>
-            </nav>
-        </header> 
+        </nav>-->
+
+    </header> 
 
 	<h1>Formulario de registro</h1>
 	<form action="registrar.php"  method="post" class="form-register" onsubmit="return validar();" style="margin-bottom:10px;">
@@ -201,13 +221,13 @@
         <!-- FOOTER 04 OCT 2019 INICIO-->
         <!--SCRIPT PARA EL MENU TOGGLE AGREGADO EL 2 DE OCTUBRE 2019  INICIO-->
     <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
-    <script type="text/javascript">
+    <!--<script type="text/javascript">
         $(document).ready(function(){
             $('.menu').click(function(){
                 $('.togglin').toggleClass('active');
             })
         })
-    </script>
+    </script>-->
     <!--SCRIPT PARA EL MENU TOGGLE AGREGADO EL 2 DE OCTUBRE 2019  FINAL-->
 </body>
 </html>

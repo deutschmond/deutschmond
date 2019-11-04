@@ -314,6 +314,9 @@ div.cart-row{
 @media (max-width: 796px){
     .cart-quantity-input{
         position: absolute;
-        right:20px;
+        right:-1px;
+    }
+    .btn-danger{
+        /*left:15px;*/
     }
 }

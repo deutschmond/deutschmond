@@ -54,6 +54,7 @@ function addToCartClicked(event){
     //console.log(title, price,imageSrc);
     addItemToCart(title, price,imageSrc);
     updateCartTotal();
+    alert('Producto agregado al carrito de compras');
 }
 function addItemToCart(title, price,imageSrc){
     var cartRow = document.createElement('div');

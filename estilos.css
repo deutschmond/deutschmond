@@ -212,7 +212,7 @@ html, body {
 .cart-column{
     display:flex;
     align-items: center;
-    border-bottom:1px solid black;
+    /*border-bottom:1px solid black;*/
     margin-right:1.5em;
     padding-bottom:10px;
     margin-top:10px;
@@ -222,19 +222,23 @@ html, body {
 }
 .cart-item{
     width:45%;
+    color:#000;
 }
 .cart-price{
     width:20%;
     font-size:1.2em;
-    color:#fff;
+    color:#000;
+    font-weight: bold;
 }
 .cart-quantity{
     width:35%;
+    color:#000;
 }
 .cart-item-title{
     color:#333;
     margin-left:.5em;
     font-size:1.2em;
+    font-weight: bold;
 }
 .cart-item-image{
     width:100px;
@@ -264,9 +268,10 @@ html, body {
     font-size:1.2em;
     margin-right:25px;
 }
+/*
 .cart-row:last-child{
     border:2px solid #fff;   
-}
+}*/
 .cart-row:last-child .cart-column{
     border:none;
 }
@@ -299,6 +304,9 @@ html, body {
     color: #ffffff; 
     font-size: 1.5em;
 }
+
 div.cart-row{
- border:2px solid #fff;   
+    background-color:#ccc;
+    border:1px solid #000;
+
 }

@@ -311,9 +311,7 @@ div.cart-row{
 
 }
 
-
-
-@media screen and (max-width: 450px){
+@media (max-width: 796px){
     .cart-quantity-input{
         position: absolute;
         right:10px;

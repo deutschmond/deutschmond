@@ -310,3 +310,12 @@ div.cart-row{
     border:1px solid #000;
 
 }
+
+
+
+@media screen and (max-width: 450px){
+    .cart-quantity-input{
+        position: absolute;
+        right:10px;
+    }
+}

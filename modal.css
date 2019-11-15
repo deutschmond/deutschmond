@@ -125,6 +125,10 @@ article .check:hover{
         display:inline-block;
 
     }
+    .modalMondtec .content-modal #botin{
+        display:inline-block;
+
+    }
     .confirm,.check{
         display:block;
         margin-top:10px;

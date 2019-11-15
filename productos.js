@@ -55,6 +55,7 @@ function addToCartClicked(event){
     addItemToCart(title, price,imageSrc);
     updateCartTotal();
     alert('Producto agregado al carrito de compras');
+    return;
 }
 function addItemToCart(title, price,imageSrc){
     var cartRow = document.createElement('div');
@@ -65,7 +66,7 @@ function addItemToCart(title, price,imageSrc){
     for(var i=0; i<cartItemNames.length;i++){
         if(cartItemNames[i].innerText==title){
             alert('Ya se ha agregado este producto');
-            return;  
+             return;
         }
     }
     var cartRowContents = `<div class="cart-item cart-column">
@@ -81,7 +82,6 @@ function addItemToCart(title, price,imageSrc){
     cartItems.append(cartRow);
     cartRow.getElementsByClassName('btn-danger')[0].addEventListener('click',removeCartItem);
     cartRow.getElementsByClassName('cart-quantity-input')[0].addEventListener('change',quantityChanged);
-
 }
 function updateCartTotal(){
     var cartItemContainer = document.getElementsByClassName('cart-items')[0];

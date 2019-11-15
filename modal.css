@@ -117,18 +117,19 @@ article .check:hover{
         left:5%;
         margin-left:0;
     }
-    /*.modalMondtec .content-modal #password{
-        display:inline-block;
+    .modalMondtec .content-modal .form-register #password{
+        display:block;
 
     }
-    .modalMondtec .content-modal #textin{
-        display:inline-block;
+    .modalMondtec .content-modal .form-register #botin{
+        display:block;
 
     }
-    .modalMondtec .content-modal #botin{
-        display:inline-block;
+    .modalMondtec .content-modal .form-register #textin{
+        display:block;
+        color:crimson;
 
-    }*/
+    }
     .confirm,.check{
         display:block;
         margin-top:10px;

@@ -66,3 +66,31 @@ input{
 	text-align:center;
 	color:#000;
 }
+@media (max-width: 796px){
+    .modalMondtec .content-modal{
+        width:90%;
+        max-width:none;
+        left:5%;
+        margin-left:0;
+    }
+    .modalMondtec .content-modal .form-register #password{
+        display:block;
+
+    }
+    .modalMondtec .content-modal .form-register #botin{
+        display:block;
+
+    }
+    .modalMondtec .content-modal .form-register #textin{
+        display:block;
+        color:crimson;
+
+    }
+    .confirm,.check{
+        display:block;
+        margin-top:10px;
+        width:50%;
+        margin-left:20%;
+    }
+
+}

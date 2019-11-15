@@ -110,7 +110,7 @@ article .check:hover{
     transition:all 0.15s linear;
 }
 
-@media (max-width: 796px){
+/*@media (max-width: 796px){
     .modalMondtec .content-modal{
         width:90%;
         max-width:none;
@@ -137,4 +137,4 @@ article .check:hover{
         margin-left:20%;
     }
 
-}
+}*/

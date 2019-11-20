@@ -325,4 +325,9 @@ div.cart-row{
     .btn-danger{
         left:15px;
     }
+    .flex-container{
+        flex-direction:column;
+        
+    }
+
 }

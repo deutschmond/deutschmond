@@ -75,6 +75,7 @@ html, body {
     margin:0 auto;
     padding:0 1.5em;
 }
+
 .section-header{
     font-family: "Raleway";
     font-weight: normal;
@@ -176,8 +177,13 @@ html, body {
     background-color: #2d9cdb;
 }
 .shop-item{
-    margin:30px;
+    margin:5px; 
 }
+.flex-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .shop-item-title{
     display:block;
     width:100%;

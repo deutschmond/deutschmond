@@ -10,7 +10,7 @@
 *{
     box-sizing: border-box;
     font-family: Raleway;
-    color:#7a7a52;
+    color:#000;
 }
 
 html, body {
@@ -79,7 +79,7 @@ html, body {
 .section-header{
     font-family: "Raleway";
     font-weight: normal;
-    color:#7a7a52;
+    color:#000;
     text-align: center;
     font-size: 2.5em;
 }
@@ -190,7 +190,7 @@ html, body {
     text-align: center;
     font-weight: bold;
     font-size: 1.5em;
-    color:#fff;
+    color:#000;
     margin-bottom: 15px;
 }
 .shop-item-image{

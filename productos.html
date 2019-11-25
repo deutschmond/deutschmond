@@ -325,6 +325,7 @@
                 <span class="cart-quantity cart-header cart-column">Cantidad</span>
             </div>
             <div class="cart-items">
+
             <!--<div class="cart-row">
                 <div class="cart-item cart-column">
                         <img class="cart-item-image" src="silla.jpg" alt="">
@@ -352,7 +353,8 @@
                 <strong class="cart-total-title">Total</strong>
                 <span class="cart-total-price">$0.00</span>
             </div>
-                <button class="btn btn-primary btn-purchase" role="button">Comprar</button>
+                <button class="btn btn-primary btn-purchase" role="button" id="cmd">Comprar y generar pdf</button>
+                
         </section>
     <!-- FIN DE CARRITO DE COMPRAS-->
     <!-- FOOTER VIEJO 04 OCT 2019 INICIO
@@ -1605,6 +1607,7 @@
             </div>
         </div>
     </div>
+    <script src="jspdf.min.js"></script>
     <!-- MODAL MUEBLES FIN-->
           <!-- jQuery -->
     <script src="vendor/jquery/jquery.js"></script>
@@ -1626,6 +1629,7 @@
     <script src="js/freelancer.js"></script>
       <!--SCRIPT PARA EL MENU TOGGLE AGREGADO EL 2 DE OCTUBRE 2019  INICIO-->
     <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script src="pdfgeneracion.js"></script>
     <!--<script type="text/javascript">
         $(document).ready(function(){
             $('.menu').click(function(){

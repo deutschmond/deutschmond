@@ -35,7 +35,7 @@
 }
 
 .menu a:hover,.show-menu-btn, .hide-menu-btn{
-	color:#800040;
+	color:#000;
 }
 #chk{
 	position:absolute;
@@ -50,7 +50,7 @@
 		position: fixed;
 		width:100%;
 		height:100vh;
-		background-color:#ccc;
+		background-color:#00316b;
 		right:-100%;
 		top:0;
 		text-align: center;

@@ -10,6 +10,9 @@
 *{
     box-sizing: border-box;
     font-family: Raleway;
+    color:#000;
+}
+.fa-ellipsis-h, .fa-times{
     color:#fff;
 }
 

@@ -1,6 +1,6 @@
 footer{
 	display:block;
-    background-color:#fff;
+    background-color:#ccc;
 
 }
 
@@ -25,7 +25,7 @@ footer .logo-footer {
 a {
     text-decoration: none!important;
     cursor: pointer;
-    color: #000;
+    color: #fff;
     transition: all .12s linear;
     backface-visibility: hidden;
     font-size: 14px;
@@ -34,7 +34,7 @@ a {
     background-color: transparent;
 }
 footer .title-footer {
-    color: #2a2a2a;
+    color: #fff;
     font-size: 20px;
     margin-bottom: 25px;
     display: block;
@@ -60,7 +60,7 @@ footer ul li a {
     display: block;
     margin-bottom: 10px;
     transition: all .15s linear;
-    color: #545454;
+    color: #fff;
 }
 a {
     text-decoration: none!important;

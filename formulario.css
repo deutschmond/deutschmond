@@ -4,11 +4,14 @@
 body{
 	margin:0;
 	font-family:sans-serif;
-	background-color: #f2e5c2;
+	background-color: #fff;
 }
 h1{
 	color:#000;
 	text-align:center;
+}
+.footerTitle{
+	color:#fff;
 }
 .form-register{
 	width:95%;

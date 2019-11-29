@@ -332,5 +332,9 @@ div.cart-row{
         flex-direction:column;
         
     }
+    .productos-modal{
+        display: flex;
+        flex-wrap: wrap;
+    }
 
 }

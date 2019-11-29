@@ -45,5 +45,11 @@ section.panel{
 	width:67.45%;
 	margin:0 auto;
 	transition:max-height .2s ease-out;
+	margin-top:2px;
 	
+}
+@media (max-width: 796px){
+	.shop-items{
+		//margin:0 0 0 70px;
+	}
 }

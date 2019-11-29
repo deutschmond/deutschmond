@@ -336,5 +336,9 @@ div.cart-row{
         display: flex;
         flex-wrap: wrap;
     }
+    .arreglo{
+        display:flex;
+        flex-wrap:wrap;
+    }
 
 }

@@ -6,7 +6,7 @@ $(document).ready(function(){
 	};
 	$("#cmd").click(function(){
 		var doc = new jsPDF();
-		doc.fromHTML($(".cart-row").html(),15,15,{
+		doc.fromHTML($(".cart-items").html(),15,15,{
 			"width":170,
 			"elementHandlers":specialElementHandler
 		});
